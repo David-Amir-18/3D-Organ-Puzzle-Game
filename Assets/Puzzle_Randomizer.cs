@@ -18,6 +18,7 @@ public class PuzzleRandomizer : MonoBehaviour
             Vector3 randomPosition;
 
             // Randomize the position within a set range
+            //Neglecting the 3rd axis
             do
             {
                 randomPosition = new Vector3(
